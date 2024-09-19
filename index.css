@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 550px;
+  height: 729px;
+}
+
+/* UPPER Section */
+.input {
+  height: 285px;
+  background: #6943ff;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  width: 448.4px;
+  height: 38px;
+  font-size: 28px;
+  font-weight: bold;
+  /* display: flex;
+      justify-content: center; */
+}
+
+#conversion-num {
+  width: 117px;
+  height: 83px;
+  background: #6943ff;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  font-size: 58px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#conversion-btn {
+  width: 117px;
+  height: 42px;
+  background: #ffffff; /* Why doesn't this change button's background color? */
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin: 26.77px auto 34px auto;
+  cursor: pointer;
+}
+
+#conversion-btn:active {
+  font-weight: bold;
+  background: grey;
+}
+
+/* LOWER Section */
+.result {
+  background: #1f2937;
+  height: calc(729px - 285px);
+  border: 1px dotted darkgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result div {
+  width: 500px;
+  height: 108.57px;
+  background: #273549;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 23.43px 25px;
+}
+
+.result h3 {
+  color: #ccc1ff;
+  font-size: 20px;
+}
+
+.result p {
+  color: #ffffff;
+  font-size: 14px;
+}

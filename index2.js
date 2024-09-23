@@ -77,11 +77,14 @@ function renderEL() {
       isContentsOn = true;
     }
   }
+
+  convertBtn.textContent = "Reset (double click)";
 }
 
 // Reset Event LISTENER Function
 function reset() {
   resultSection.innerHTML = "";
+  convertBtn.textContent = "Convert";
   isContentsOn = false;
 }
 
